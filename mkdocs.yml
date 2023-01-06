@@ -1,9 +1,133 @@
-site_name: Danilo
+site_name: Blog
+site_author: Danilo Nascimento
+
 theme:
   name: material
+  features:
+    # - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: material/cloud
   language: pt-BR
 
+repo_name: danilodcn/danilodcn-blog/
+repo_url: https://github.com/danilodcn/danilodcn-blog
+remote_branch: main
+edit_uri: blob/main/docs/
+
 markdown_extensions:
+  - abbr
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
-  - pymdownx.superfences
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.critic
+  - pymdownx.snippets:
+      check_paths: true
+
+plugins:
+  - search
+  - pdf-export:
+      verbose: True
+      media_type: print
+      combined: True
+      combined_output_path: pdf/combined.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: datetime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/danilodcn/
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/danilodcn/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/danilodcn/    
+
+copyright: Copyright &copy; 2023 Danilo Nascimento
