@@ -2,7 +2,7 @@ site_name: Blog
 site_author: Danilo Nascimento
 
 nav:
-    - Inicio: 'index.md'
+    - Quem sou: 'index.md'
 
 theme:
   name: material
@@ -47,9 +47,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/favicon.ico
   icon:
-    logo: material/cloud
+    logo: simple/dataiku
   language: pt-BR
 
 repo_name: danilodcn/danilodcn-blog/
@@ -58,6 +58,7 @@ remote_branch: main
 edit_uri: blob/main/docs/
 
 markdown_extensions:
+  - meta
   - abbr
   - admonition
   - attr_list
@@ -112,7 +113,8 @@ markdown_extensions:
       check_paths: true
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - pdf-export:
       verbose: True
       media_type: print
@@ -123,6 +125,21 @@ plugins:
       enabled_if_env: ENABLE_PDF_EXPORT
   - minify:
       minify_html: true
+  - i18n:
+      default_language: pt
+      docs_structure: suffix
+      languages:
+        pt: 
+          name: Português
+          build: true
+          site_name: "Anotações do Danilo"
+        en:
+          name: English
+          build: true
+          site_name: "Danilo Annotations"
+      nav_translations:
+        en:
+          Quem sou: Who am I
   - git-revision-date-localized:
       type: datetime
 

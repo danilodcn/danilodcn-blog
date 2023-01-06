@@ -13,7 +13,7 @@ Me chamo Danilo, sou desenvolvedor Full Stack Junior na [wtechnology](https://ww
 - 👨‍💻 Trabalho remotamente usando as tecnologias: Django, VueJS, Typescript, Mysql, Postgres, AWS, git, ...
 -  👯 Gosto de colaborar em projetos open source e em ajudar pessoas.
 - 📫 Estou disponível através do email: daconnas.dcn@gmail.com
-- 📝 Para ver meu currículo <a  target="blank" href="https://www.canva.com/design/DAEtqFFnCrI/I0qO7YfHsOI8XtE_ehR7jQ/view?utm_content=DAEtqFFnCrI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">clique aqui</a>
+- 📝 Para ver meu currículo <a  target="blank" href="https://www.canva.com/design/DAEtqFFnCrI/I0qO7YfHsOI8XtE_ehR7jQ/view?utm_content=DAEtqFFnCrI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">clique aqui</a>.
 
 <br/>
 
