@@ -677,6 +677,20 @@ mkdocs = ">=0.17"
 weasyprint = ">=0.44"
 
 [[package]]
+name = "mkdocs-static-i18n"
+version = "0.53"
+description = "MkDocs i18n plugin using static translation markdown files"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mkdocs-static-i18n-0.53.tar.gz", hash = "sha256:eccd819e727bc91bb58cc7c34230266f9e475abfbc11ace1e4c1f262969e2c2e"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.2.3"
+
+[[package]]
 name = "mkpdfs-mkdocs"
 version = "1.0.1"
 description = "Allows the generation of the PDF version of your MkDocs documentation."
@@ -1303,4 +1317,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "dd2ff380725627f7fd403730ffec95b0f6f08d2d73b4ad6745913987c08aa30c"
+content-hash = "f164b0cf48fc9ace8ecde4b9a4b0987354ff39f40049dd58097894f7a42024f1"
