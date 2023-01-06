@@ -139,7 +139,7 @@ plugins:
           site_name: "Danilo Annotations"
       nav_translations:
         en:
-          Quem sou: Who am I
+          Quem sou: Who I am
   - git-revision-date-localized:
       type: datetime
 
