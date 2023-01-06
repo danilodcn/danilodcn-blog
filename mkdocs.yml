@@ -1,0 +1,9 @@
+site_name: Danilo
+theme:
+  name: material
+  language: pt-BR
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences

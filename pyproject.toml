@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "danilo-blog"
+version = "0.0.1"
+description = ""
+authors = ["Danilo Nascimento <daconnas.dcn@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "danilo_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

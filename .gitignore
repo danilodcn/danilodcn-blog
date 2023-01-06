@@ -1,0 +1,75 @@
+site
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+src/env/
+# C extensions
+*.so
+*.sqlite3
+
+# PyInstaller
+*.manifest
+*.spec
+
+# VSCode
+.vscode/launch.json
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+*.sqlite3
+
+# Translations
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# IDE
+.idea
+
+# Docke Compose
+docker-compose.*.yml
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.vscode/settings.json
+.vscode/launch.json
+
+# Environments
+src/.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
