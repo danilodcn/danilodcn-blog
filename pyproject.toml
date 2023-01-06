@@ -11,6 +11,10 @@ packages = [{include = "danilo_blog"}]
 python = "^3.10"
 mkdocs = "^1.4.2"
 mkdocs-material = "^9.0.2"
+mkdocs-pdf-export-plugin = "^0.5.10"
+mkdocs-minify-plugin = "^0.6.2"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+mkpdfs-mkdocs = "^1.0.1"
 
 
 [build-system]
