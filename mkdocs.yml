@@ -1,6 +1,9 @@
 site_name: Blog
 site_author: Danilo Nascimento
 
+nav:
+    - Inicio: 'index.md'
+
 theme:
   name: material
   features:
@@ -33,7 +36,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Mudar para tema escuro
     - scheme: slate
       primary: indigo
       accent: indigo
@@ -113,8 +116,10 @@ plugins:
   - pdf-export:
       verbose: True
       media_type: print
-      combined: True
-      combined_output_path: pdf/combined.pdf
+      author: Danilo Nascimento
+      copyright: danilodcn
+      render_js: true
+      output_path: site/pdf/document.pdf
       enabled_if_env: ENABLE_PDF_EXPORT
   - minify:
       minify_html: true
