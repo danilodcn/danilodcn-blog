@@ -590,6 +590,24 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.3)", "jinja2 (==2.11.1)", "markdown (==3.2.1)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "packaging (==20.5)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "typing-extensions (==3.10)", "watchdog (==2.0)"]
 
 [[package]]
+name = "mkdocs-blogging-plugin"
+version = "2.2.2"
+description = "Mkdocs plugin that generates a blog index page sorted by creation date."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-blogging-plugin-2.2.2.tar.gz", hash = "sha256:297cae8ff7baae4b9cdcef3a2a6317a5954664c5d67223b5104a9e7bfa78eb50"},
+    {file = "mkdocs_blogging_plugin-2.2.2-py3-none-any.whl", hash = "sha256:75638b791556cf399f1ba19e158e32034555a880f747d315421b6d018942ae10"},
+]
+
+[package.dependencies]
+babel = ">=2.7.0"
+GitPython = ">=3.1.18"
+jinja2 = ">=2"
+mkdocs = ">=1.0"
+
+[[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
 version = "1.1.0"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
@@ -1317,4 +1335,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f164b0cf48fc9ace8ecde4b9a4b0987354ff39f40049dd58097894f7a42024f1"
+content-hash = "e554499dfa68d741977a66315c8615d5d2265d95b61dfce53c786b60d37d886e"

@@ -2,7 +2,8 @@ site_name: Blog
 site_author: Danilo Nascimento
 
 nav:
-    - Quem sou: 'index.md'
+  - Quem sou: 'index.md'
+  - Blog: 'blog/index.md'
 
 theme:
   name: material
@@ -52,6 +53,7 @@ theme:
     logo: simple/dataiku
   language: pt-BR
 
+site_url: https://danilodcn.github.io/danilodcn-blog/
 repo_name: danilodcn/danilodcn-blog/
 repo_url: https://github.com/danilodcn/danilodcn-blog
 remote_branch: main
@@ -113,6 +115,30 @@ markdown_extensions:
       check_paths: true
 
 plugins:
+  - blogging:
+      locale: pt
+      size: 3
+      paging: true
+      show_total: true
+      sort: 
+        from: new
+        by: creation
+      dirs: # The directories to be included
+        - blog
+      features:
+        tags: {}
+      theme:
+        name: card
+        options: # Optional
+          # `true` if display the button as plain text
+          # `false` or not present if display as rectangle button
+          plain_button: false
+          # Replacement for 'Continue Reading'
+          label: Leia mais
+      categories:
+        - name: web
+          dirs:
+            - web
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - pdf-export:
