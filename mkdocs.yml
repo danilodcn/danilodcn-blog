@@ -141,6 +141,7 @@ plugins:
             - web
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - macros
   - pdf-export:
       verbose: True
       media_type: print
@@ -177,5 +178,13 @@ extra:
       link: https://gitlab.com/danilodcn/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/danilodcn/    
+  authors_list:
+    danilodcn:
+      name: Danilo Nascimento
+      description: Desenvolvedor e criador
+      avatar: https://avatars.githubusercontent.com/u/31135098?s=400&u=1c1cbea8de3ff424df8df299b206acdaa01b79ab&v=4
 
 copyright: Copyright &copy; 2023 Danilo Nascimento
+
+extra_css:
+  - assets/css/extra.css

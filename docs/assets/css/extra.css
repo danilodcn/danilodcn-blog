@@ -1,0 +1,48 @@
+.md-post__authors {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 0 0.6rem;
+}
+.md-typeset {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    font-size: .8rem;
+    line-height: 1.6;
+}
+
+.md-profile {
+    align-items: center;
+    display: flex;
+    font-size: .7rem;
+    gap: 0.6rem;
+    line-height: 1.4;
+    width: 100%;
+}
+
+.md-typeset .md-author--long {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.md-typeset .md-author {
+    display: block;
+    flex-shrink: 0;
+    height: 2.7rem;
+    overflow: hidden;
+    position: relative;
+    transition: color 125ms,transform 125ms;
+    width: 2.7rem;
+}
+
+.md-profile__description {
+    flex-grow: 1;
+}
+
+.md-typeset .md-author img {
+    border-radius: 100%;
+    display: block;
+}
+.md-typeset img, .md-typeset svg, .md-typeset video {
+    height: auto;
+    max-width: 100%;
+}
