@@ -4,7 +4,7 @@
 </div>
 <img align="right" alt="GIF" margin="60px" src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" width="300" height="320" />
 
-Me chamo Danilo, sou desenvolvedor Full Stack Junior na [wtechnology](https://www.linkedin.com/company/w-technology/). Eu gosto bastante de desafios, estou sempre buscando aprender coisas novas.
+Me chamo Danilo, sou desenvolvedor Full Stack Junior na [Software4U](https://www.linkedin.com/company/software4ubrazil/). Eu gosto bastante de desafios, estou sempre buscando aprender coisas novas.
 
 
 <br/>
