@@ -4,7 +4,7 @@
 </div>
 <img align="right" alt="GIF" margin="60px" src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" width="300" height="320" />
 
-I'm Danio Nascimento, Full Stack Developer jr at [wtechnology](https://www.linkedin.com/company/w-technology/). I like challenges, I'm always looking to learn new things.
+I'm Danio Nascimento, Full Stack Developer JR at [Software4U](https://www.linkedin.com/company/software4ubrazil/). I like challenges, I'm always looking to learn new things.
 <br/>
 
 - 🔭  I am currently learning and improving Node, VueJs, AWS, Golang, Django, TDD e Clean Architecture.
